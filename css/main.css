@@ -8,13 +8,15 @@ span {
     word-spacing:10px;
 }
 p {
-    word-spacing:25px;
+    word-spacing:35px;
 }
 h1 {
-    font-size : 11px;
+    font-size : 12px;
+    word-spacing:5px;
 }
 h2 {
     font-size : 10px;
+    word-spacing:5px;
 }
 button {
     word-spacing:15px;
@@ -57,14 +59,14 @@ button {
 }
 .top4 {
     background-color:cornsilk;
-    width: 15px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
 }
 .top5 {
     display: flex;
     justify-content:center;
     padding: 20px;
-    background:rgba(0,0,0,0.2);
+    /* background:rgba(0,0,0,0.2); */
     width: 300px;
     height: 50px;
     color:white;
@@ -80,7 +82,16 @@ button {
     display: flex;
     justify-content:center;
     flex-wrap:wrap;
-    padding: 15px 200px;
+    padding: 50px 200px;
+    color:white;
+}
+.content1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding: 23px 200px;
     color:white;
 }
 .content2 {
@@ -96,17 +107,18 @@ button {
     height: auto;
     display: flex;
     justify-content:center;
-    /* padding: 0 490px; */
+    padding: 10px;
     color:white;
-    font-size: 12px;
+    font-size: 16px;
 }
 .content4 {
     width: 100%;
-    height: 60px;
-    /* display: flex;
-    justify-content:space-around;
-    padding: 20px; */
-    /* color:white; */
+    height: auto;
+    display: flex;
+    /* text-align:space-around; */
+    /* justify-content:space-around; */
+    padding: 40px 600px 50px 600px;
+    color:white;
     /* background:rgba(0,0,0,0.2); */
 }
 .content-a {
@@ -115,24 +127,28 @@ button {
     justify-content:center;
 }
 .content-b {
-    font-size: 12px;
+    font-size: 13px;
     flex-direction:column;
     text-align: center;
 }
 .content-c,.content-d,.content-e,.content-f,.content-g {
     text-align:space-around;
-    font-size: 14px;
+    font-size: 13px;
 }
-.content-h,.content-i,.content-j {
-    text-align:space-around;
+.content-h {
+    width: 600px;
+    display: flex;
+    text-align: center;
+    background:rgba(0,0,0,0.2);
 }
-.content-h1,.content-h2,.content-i1,.content-i2,.content-j1,.content-j2 {
-    /* display: flex;
-    justify-content:center; */
+.content-h1, .content-h2, .content-h3 {
+    flex: 1;
+    display: flex;
+    flex-direction:column;
 }
 .text {
-    width: 370px;
-    height: 30px;
+    width: 480px;
+    height: 40px;
 }
 .footer {
     width: 100%;
